@@ -27,8 +27,8 @@ const AboutPage = (props) => {
         {/* Hero Container */}
         <Hero
           maxWidth={'900px'}
-          image={'/about.png'}
-          title={`Sydney \n A British brand since 1860`}
+          image={'/about-t.jpg'}
+          title={`NB11 \n A Canadian brand since 2020`}
         />
 
         <div className={styles.navContainer}>
@@ -48,48 +48,35 @@ const AboutPage = (props) => {
 
         <Container size={'large'} spacing={'min'}>
           <div className={styles.detailContainer} ref={historyRef}>
-            <p>
-              Founded in 1860, Sydney is an innovative British brand with a
-              contemporary edge. We make timeless everyday luxury clothing.
-            </p>
-            <br />
-            <br />
-            <p>
-              We created some of the world's first T-shirts and spent decades
-              perfecting the feel of the cotton. Today we are the only brand
-              that makes T-shirts in its own factory in the UK. And we do this
-              in the same factory we have occupied since 1937.
-            </p>
+          <p>
+            Founded with a commitment to safety and empowerment, NB11Company is a Toronto-based brand redefining personal security with style and innovation. We create practical, elegant tools designed to support women’s confidence and protection in everyday life.
+          </p>
+          <br />
+          <br />
+          <p>
+            From personal alarms to address-masking ink rollers, each product is crafted with both function and sophistication in mind. Partnering with leading researchers at the University of Toronto, we develop cutting-edge safety solutions, blending technology with user-friendly design. Every NB11 product embodies our mission to empower and protect, ensuring peace of mind with a refined touch.
+          </p>
           </div>
         </Container>
 
         <div className={styles.imageContainer}>
-          <img alt={'shirt brand'} src={toOptimizedImage('/about1.png')}></img>
+          <img alt={'shirt brand'} src={toOptimizedImage('/about3-t.jpg')}></img>
         </div>
 
         <Container size={'large'} spacing={'min'}>
           <div className={styles.content}>
-            <h3>Our Values</h3>
-            <div ref={valuesRef}>
-              <p>
-                Sunspel produced some of the world's earliest T-shirts. In the
-                late 1800s the business made luxury tunics and undershirts from
-                lightweight Sea Island cotton for export to the Far East and
-                other warm climates. While these garments initially had silk
-                buttoned plackets, these were removed in the early 1900s and
-                replaced with simple bound necks to reduce manufacturing costs -
-                creating the T-shirt. We've supplied the world as the T-shirt
-                has evolved from underwear to outerwear, from symbol of youthful
-                rebellion to everyday wardrobe staple, and we've spent decades
-                refining its every last aspect.
-              </p>
-              <ol>
-                <li>Be an ecowear</li>
-                <li>Sophisticated and not mass-produced</li>
-                <li>Only natural materials</li>
-              </ol>
-              <img alt={'founder'} src={toOptimizedImage('/about2.png')}></img>
-            </div>
+          <h3>Our Values</h3>
+          <div ref={valuesRef}>
+            <p>
+              At NB11Company, our mission extends beyond creating personal safety tools; we are committed to fostering innovation through academic collaboration. By working closely with scholars and researchers, we continually enhance the design and functionality of our products, prioritizing safety and ergonomics. Each product, from personal alarms to address-masking ink rollers, is developed with a blend of practical elegance and advanced research, supporting security without sacrificing style.
+            </p>
+            <ol>
+              <li>Commitment to sustainability in all our products</li>
+              <li>Precision-crafted and not mass-produced</li>
+              <li>Designed using durable, high-quality materials</li>
+            </ol>
+            <img alt={'founder'} src={toOptimizedImage('/about2.png')}></img>
+          </div>
             <h3>Sustainability</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>
               <p>
@@ -119,7 +106,7 @@ const AboutPage = (props) => {
         </Container>
 
         <div className={styles.imageContainer}>
-          <img alt={'shirt backwards'} src={toOptimizedImage('/about3.png')}></img>
+          <img alt={'shirt backwards'} src={toOptimizedImage('/about1-t.jpeg')}></img>
         </div>
       </div>
     </Layout>

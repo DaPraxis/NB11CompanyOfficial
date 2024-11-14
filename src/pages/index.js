@@ -25,6 +25,10 @@ const IndexPage = () => {
     navigate('/shop');
   };
 
+  const goToAbout = () => {
+    navigate('/about');
+  };
+
   return (
     <Layout disablePaddingBottom>
       {/* Hero Container */}
@@ -115,11 +119,12 @@ const IndexPage = () => {
       <div className={styles.sustainableContainer}>
         <Hero
           image={toOptimizedImage('/banner3.png')}
-          title={'We are Sustainable'}
+          title={'Responsible & Ergonomic Design'}
           subtitle={
-            'From caring for our land to supporting our people, discover the steps we’re taking to do more for the world around us.'
+            'Discover how we blend functionality and elegance to support your peace of mind, while partnering with trusted innovators to craft tools that empower and protect with style and integrity.'
           }
           ctaText={'read more'}
+        ctaAction={goToAbout}
           maxWidth={'660px'}
           ctaStyle={styles.ctaCustomButton}
         />
@@ -128,8 +133,8 @@ const IndexPage = () => {
       {/* Social Media */}
       <div className={styles.socialContainer}>
         <Title
-          name={'Styled by You'}
-          subtitle={'Tag @sydney to be featured.'}
+          name={'Safety for You'}
+          subtitle={'Tag @nb11 to be featured.'}
         />
         <div className={styles.socialContentGrid}>
           <img src={toOptimizedImage(`/social/socialMedia1.png`)} alt={'social media 1'} />

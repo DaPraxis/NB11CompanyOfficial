@@ -14,7 +14,7 @@ const SamplePage = (props) => {
           <div className={styles.blogContainer}>
             <Blog
               category={'design'}
-              title={'Friends of Sydney: Flora Fricker'}
+              title={'Friends of NB11Company: Flora Fricker'}
               image={'/blogFeatured.png'}
               alt={''}
             >
@@ -27,7 +27,7 @@ const SamplePage = (props) => {
                   eye-catching sustainably sourced wreaths.
                 </p>
                 <p className={styles.blogParagraph}>
-                  Delaware limited liability company (The Sydney) collects
+                  Toronto limited liability company (The NB11Company) collects
                   personal information that you voluntarily provide when
                   applying or registering for an account with The Upside or
                   making a purchase on The Upside website; www.theupside.com

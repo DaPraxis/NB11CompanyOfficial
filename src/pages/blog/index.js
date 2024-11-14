@@ -12,15 +12,15 @@ import * as styles from './index.module.css';
 import { toOptimizedImage } from '../../helpers/general';
 
 const BlogPage = (props) => {
-  const blogData = generateMockBlogData(6);
+  const blogData = generateMockBlogData(3);
 
   return (
     <Layout disablePaddingBottom>
       <div className={styles.root}>
         <Hero
           maxWidth={'400px'}
-          image={toOptimizedImage('/blogCover.png')}
-          title={`The new standard of Closing`}
+          image={toOptimizedImage('/blogCover-t.jpg')}
+          title={`The new standard of Safety`}
           ctaLink={'read story'}
           ctaTo={'/blog/sample'}
           header={'design'}
