@@ -73,14 +73,14 @@ const IndexPage = () => {
       <div className={styles.highlightContainer}>
         <Container size={'large'} fullMobile>
           <Highlight
-            image={'/highlight.png'}
+            image={'/highlight-t.jpeg'}
             altImage={'highlight image'}
-            miniImage={'/highlightmin.png'}
+            miniImage={'/highlightmin-t.jpg'}
             miniImageAlt={'mini highlight image'}
-            title={'Luxury Knitwear'}
-            description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
-            textLink={'shop now'}
-            link={'/shop'}
+            title={'Elegant Safety Keychain'}
+            description={`Crafted for both style and security, this discreet personal alarm is designed with meticulous attention to detail. Perfectly sized to complement any outfit, this alarm is a refined statement of both fashion and functionality, ideal for those who prioritize safety with sophistication.`}
+            // textLink={'shop now'}
+            // link={'/shop'}
           />
         </Container>
       </div>

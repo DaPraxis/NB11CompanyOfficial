@@ -6,7 +6,7 @@
 
 @media (max-width: 800px) {
     .root svg {
-        width: 90px;
+        width: 100px;
         height: 16.67px;
     }
 }
