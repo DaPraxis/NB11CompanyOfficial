@@ -30,35 +30,33 @@ const IndexPage = () => {
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
-        image={'/banner1.png'}
-        title={'Essentials for a cold winter'}
-        subtitle={'Discover Autumn Winter 2021'}
-        ctaText={'shop now'}
-        ctaAction={goToShop}
+        image={'/banner1-t.png'}
+        title={'Empowered Women'}
+        subtitle={'New Boundaries, 1-to-1 Protection'}
+        // ctaText={'shop now'}
+        // ctaAction={goToShop}
       />
 
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
-          <span className={styles.gold}>matter design.</span>
+        Empowering <span className={styles.gold}>safety</span> today, for a <span className={styles.gold}>stronger</span> tomorrow. {' '}
         </p>
         <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
+        Each of our products is designed to provide women with <span className={styles.gold}>confidence</span> and <span className={styles.gold}>protection</span> in every moment. {' '}
         </p>
       </div>
 
       {/* Collection Container */}
-      <div className={styles.collectionContainer}>
+      {/* <div className={styles.collectionContainer}>
         <Container size={'large'}>
           <Title name={'New Collection'} />
           <ProductCollectionGrid />
         </Container>
-      </div>
+      </div> */}
 
       {/* New Arrivals */}
-      <div className={styles.newArrivalsContainer}>
+      {/* <div className={styles.newArrivalsContainer}>
         <Container>
           <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
           <ProductCardGrid
@@ -69,7 +67,7 @@ const IndexPage = () => {
             data={newArrivals}
           />
         </Container>
-      </div>
+      </div> */}
 
       {/* Highlight  */}
       <div className={styles.highlightContainer}>
@@ -88,18 +86,18 @@ const IndexPage = () => {
       </div>
 
       {/* Promotion */}
-      <div className={styles.promotionContainer}>
+      {/* <div className={styles.promotionContainer}>
         <Hero image={toOptimizedImage('/banner2.png')} title={`-50% off \n All Essentials`} />
         <div className={styles.linkContainers}>
           <Link to={'/shop'}>WOMAN</Link>
           <Link to={'/shop'}>MAN</Link>
         </div>
-      </div>
+      </div> */}
 
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'about NB11 Company'}
         quote={
           '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
         }

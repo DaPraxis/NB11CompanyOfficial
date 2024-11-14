@@ -22,16 +22,16 @@
 }
 
 .title {
-    font-size: 72px;
+    font-size: 86px;
     line-height: 86px;
-    font-weight: normal;
+    font-weight: bold;
     text-align: center;
     white-space: pre-wrap;
 }
 
 .subtitle {
     
-    font-weight: 400;
+    font-weight: bold;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
