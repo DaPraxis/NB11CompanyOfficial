@@ -57,7 +57,7 @@ const SamplePage = (props) => {
                 </div>
               </div>
               <div className={styles.content}>
-                <h2 className={styles.blogSubHeader}>2. Lorem ipsum</h2>
+                <h2 className={styles.blogSubHeader}>Our Services</h2>
                 <p className={styles.blogParagraph}>
                   Our Services, including but not limited to the registration of
                   an account with us or placing of an order, is not intended to

@@ -12,7 +12,7 @@ import * as styles from './index.module.css';
 import { toOptimizedImage } from '../../helpers/general';
 
 const BlogPage = (props) => {
-  const blogData = generateMockBlogData(3);
+  const blogData = generateMockBlogData(6);
 
   return (
     <Layout disablePaddingBottom>

@@ -1,11 +1,11 @@
 [
     {
-        "title": "The new standard of Opening and Closing",
-        "category": "design",
+        "title": "Style Meets Safety: the Fashion-Forward Safety Alarm",
+        "category": "product",
         "alt": "blog new standard of closing",
-        "image": "/blogs/blog1.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
+        "image": "/blogs/blogProd1.jpeg",
+        "link": "/blog/blog1",
+        "excerpt": "From its piercing siren to its chic, fashion-first design, the alarm redefines personal safety while complementing your everyday look. Stay safe, stay confident, and never let your protection go out of style."
     },
     {
         "title": "A Torontonian office",
@@ -13,7 +13,15 @@
         "alt": "blog new standard of closing",
         "image": "/blogs/blog2-t.jpg",
         "link": "/blog/sample",
-        "excerpt": "London-based seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
+        "excerpt": "With a vibrant and welcoming atmosphere, our office is more than a workspace—it's a hub for meaningful connections and groundbreaking ideas. Explore the story behind our Toronto roots and get a glimpse of where the magic happens!"
+    },
+    {
+        "title": "Roll Away the Risk: Meet The Adorable Privacy Scroller",
+        "category": "product",
+        "alt": "blog new standard of closing",
+        "image": "/blogs/blogProd2.jpg",
+        "link": "/blog/sample",
+        "excerpt": "Protecting your personal information just got a lot more stylish! Meet NB11Company's Privacy Protection Scroller—a compact, eco-friendly, and fun way to safeguard sensitive details. With its adorable design and efficient ink pattern, this roller makes covering identity and privacy information a breeze. Say goodbye to bulky shredders and hello to a smarter, cuter solution for staying secure. Perfect for home, office, or on-the-go use!"
     },
     {
         "title": "It is a long established fact that a reader by the readable",
@@ -22,14 +30,6 @@
         "image": "/blogs/blog3-t.jpg",
         "link": "/blog/sample",
         "excerpt": "London-basedsonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "It is a long establishable",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog3.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based floral designer Flora Fricker champions seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
     },
     {
         "title": "It is a long estab the readable",
