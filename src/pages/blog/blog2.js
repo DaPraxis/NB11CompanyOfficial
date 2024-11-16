@@ -43,6 +43,8 @@ const Blog2Page = (props) => {
                 {/* <div className={styles.imageContainer}>
                   <img src={toOptimizedImage('/blogs/blogProd2-i.png')} alt={'sample1'} />
                 </div> */}
+                <br/>
+
                 <h2 className={styles.blogSubHeader}>Why Privacy Matters</h2>
                 <p className={styles.blogParagraph}>
                 Whether it’s a discarded bill, a shipping label, or a confidential 
@@ -73,9 +75,10 @@ const Blog2Page = (props) => {
                 part of our commitment to helping individuals feel safe in every 
                 aspect of their lives. From safety alarms to privacy tools, 
                 NB11Company designs products that combine innovation, convenience, 
-                and style to meet the modern challenges of our customers.{' '}
+                and style to meet the modern challenges of our customers.
                 </p>
-
+                <br/>
+                <br/>
                 <h2 className={styles.blogSubHeader}>Perfect for Everyone</h2>
                 <p className={styles.blogParagraph}>
                 Whether you're a busy professional, a parent safeguarding your family’s 

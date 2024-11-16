@@ -49,6 +49,8 @@ const Blog1Page = (props) => {
                 </div>
               </div>
               <div className={styles.content}>
+              <br/>
+
                 <h2 className={styles.blogSubHeader}>More Than Just a Product</h2>
 
                 <p className={styles.blogParagraph}>
