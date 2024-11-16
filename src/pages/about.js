@@ -75,31 +75,31 @@ const AboutPage = (props) => {
               <li>Precision-crafted and not mass-produced</li>
               <li>Designed using durable, high-quality materials</li>
             </ol>
-            <img alt={'founder'} src={toOptimizedImage('/about2.png')}></img>
+            <img alt={'founder'} src={toOptimizedImage('/about2.jpg')}></img>
           </div>
             <h3>Sustainability</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>
               <p>
-                Our founder, Thomas Hill, had both an eye for quality and a
-                desire to innovate. As well as using the finest fibres such as
-                Sea Island cotton, cashmere and silk, he invented his own
-                fabrics. Sunspel continues this commitment to innovation today
-                and our unique fabrics include: Q100 Sea Island cotton, Q82
-                Supima cotton, Q75 warp knit mesh cotton and Q14 warp knit
-                cellular cotton. The technology behind these fabrics remains
-                unchanged today and all Sunspel products use the finest cottons,
-                wools and fibres.
+              Being in Toronto means we’re surrounded by a community that values 
+              inclusivity and empowerment—values that are central to everything 
+              we do. Whether it’s through workshops on personal safety or 
+              partnerships with local organizations, we actively contribute to 
+              the city we’re proud to call home.
               </p>
               <p>
-                Made in Long Eaton, England and crafted from our luxurious long
-                staple Supima cotton for unparalleled softness, comfort and
-                durability, the Sunspel T-shirt has a classic fit and only the
-                most essential details.{' '}
+              Our location also provides easy access to some of the brightest 
+              minds in academia and industry, enabling us to collaborate on 
+              projects that push boundaries. By working with local talent and 
+              resources, we stay rooted in the community while expanding our 
+              global reach.{' '}
               </p>
               <p>
-                With over 100 years spent perfecting fabric, fit and style, the
-                Sunspel Classic T-shirt is recognised as the finest in the
-                world.
+              As our team grows, so does our office. We’re committed to creating 
+              a space that not only supports innovation but also reflects our 
+              evolving vision. Future plans include adding dedicated testing 
+              labs for product prototypes, creating collaborative zones for 
+              cross-functional teams, and hosting events to engage with our 
+              customers and the Toronto community.
               </p>
             </div>
           </div>

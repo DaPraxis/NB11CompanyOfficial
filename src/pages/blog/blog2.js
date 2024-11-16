@@ -73,7 +73,7 @@ const Blog2Page = (props) => {
                 part of our commitment to helping individuals feel safe in every 
                 aspect of their lives. From safety alarms to privacy tools, 
                 NB11Company designs products that combine innovation, convenience, 
-                and style to meet the modern challenges of our customers.
+                and style to meet the modern challenges of our customers.{' '}
                 </p>
 
                 <h2 className={styles.blogSubHeader}>Perfect for Everyone</h2>

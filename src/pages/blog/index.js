@@ -22,7 +22,7 @@ const BlogPage = (props) => {
           image={toOptimizedImage('/blogCover-t.jpg')}
           title={`The new standard of Safety`}
           ctaLink={'read story'}
-          ctaTo={'/blog/sample'}
+          ctaTo={'/blog/blog1'}
           header={'design'}
         />
 
